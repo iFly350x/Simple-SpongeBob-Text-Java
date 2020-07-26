@@ -6,7 +6,7 @@ public class spongebobtext {
 
         Scanner input = new Scanner(System.in);
         System.out.print("Enter Sentence: ");
-        char[] sentence = input.nextLine().toCharArray();
+        char[] sentence = input.nextLine().toLowerCase().toCharArray();
         boolean upper = true;
         for (int i=0; i < sentence.length; i++) {
             if (upper) {
